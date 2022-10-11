@@ -1,5 +1,5 @@
 # eudaminae_sexing
-This is our repository where we describe the bioinformatic steps to obtain primers to amplify a fragment of the kettin loci (Z chromosome) in [Eudaminae](https://github.com/pavelm14/blob/master/lab_miscellaneous/tree/main/website).
+This is our repository where we describe the bioinformatic steps to obtain primers to amplify a fragment of the kettin loci (Z chromosome) in [Eudaminae](https://github.com/pavelm14/lab_miscellaneous/tree/main/website).
 
 We use low-coverage whole genome resequencing (WGS) data to extract the locus of interest. Then, we align the resulting sequences and public transcriptomic data to assess for any potential intron/exon breaks in the genomic sequences. Finally, we use the Primer BLAST algorithm to point out potential conserved regions across Eudaminae where primers can anneal.
 

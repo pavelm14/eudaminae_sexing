@@ -68,5 +68,6 @@ We use the SECAPR pipeline to align all the extracted contigs of interest using 
 ```console
 user@metacentrum:~$
 secapr align_sequences --sequences /data/extracted_all_samples.fasta --output /data/contig_alignments/ --aligner mafft --output-format fasta --no-trim --cores 3```
+```
 
 The file extracted_all_samples.fasta contains all contigs from all samples

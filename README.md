@@ -22,8 +22,8 @@ You can find in the [SECAPR tutorial](http://htmlpreview.github.io/?https://gith
 We work mainly in the MetaCentrum computer cluster. For more information on getting an account and tutorials how to run programs, see their [website](https://metavo.metacentrum.cz/).
 
 We use our unpublished low-coverage WGS data:
-- XXXXXX Spicauda 
 - PM0178	Entheus	priassus (Entheini)
+- XXXXXX Spicauda (Eudamini: Eudamina)
 - PM0105	Autochton	itylus (Eudamini: Eudamina)
 - PM-RN02-01	Cecropterus	dorantes (Eudamini: Eudamina)
 - PM0278	Chioides	catillus (Eudamini: Eudamina)
@@ -40,4 +40,10 @@ We use our unpublished low-coverage WGS data:
 - PM0311	Nascus	phocus (Phocidini)
 - PM0318	Porphyrogenes (Phocidini)
 - PM0310	Pseudonascus	solon (Phocidini)
+
+We complement the taxonomic scope of Eudaminae by using published low-coverage WGS ([Li et al. 2019](https://doi.org/10.1073/pnas.1821304116)):
+- SRR7174386	Drephalys	kidonoi (Entheini)
+- SRR7174447	Cephise	aelius (Eudamini: Cephisina)
+- SRR7174559	Udranomia	kikkawai (Entheini)
+- SRR7174529	Oileides	vulpinus (Oileidini: Oileidina)
 

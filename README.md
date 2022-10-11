@@ -45,7 +45,7 @@ We complement the taxonomic scope of Eudaminae by using published low-coverage W
 - SRR7174386	Drephalys	kidonoi (Entheini)
 - SRR7174447	Cephise	aelius (Eudamini: Cephisina)
 - SRR7174559	Udranomia	kikkawai (Entheini)
-- SRR7174529	Oileides	vulpinus (Oileidini: Oileidina)
+- SRR7174528	Typhedanus	ampyx (Oileidini: Typhedanina)
 
 After checking that the Illumina reads are trimmed and clean, we use the following command in the SECAPR environment to assemble contigs using SPAdes:
 

@@ -47,3 +47,10 @@ We complement the taxonomic scope of Eudaminae by using published low-coverage W
 - SRR7174559	Udranomia	kikkawai (Entheini)
 - SRR7174529	Oileides	vulpinus (Oileidini: Oileidina)
 
+After checking that the Illumina reads are trimmed and clean, we use the following command in the SECAPR environment to assemble contigs using SPAdes:
+
+```console
+user@metacentrum:~$
+secapr assemble_reads --assembler spades --input /data/processed/cleaned_trimmed_reads/ --output /data/processed/contigs
+```
+

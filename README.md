@@ -17,7 +17,7 @@ The transcriptomic sequences are localted at the [data/targets folder](https://g
 ## step 2: genome assemblies
 We assemble contigs de novo using the SECAPR pipeline ([Andermann et al. 2018](https://doi.org/10.7717/peerj.5175)). The latest implementation of SECAPR includes the software SPAdes, which is very convenient when assembling whole genome resequencing data ([Ribeiro et al. 2021](https://doi.org/10.1111/mec.16240)).
 
-You can find in the [SECAPR tutorial](http://htmlpreview.github.io/?https://github.com/AntonelliLab/seqcap_processor/blob/master/docs/documentation/main_doc.html) how to install and use its different functions in the command line.
+You can find in the [SECAPR tutorial](http://htmlpreview.github.io/?https://github.com/AntonelliLab/seqcap_processor/blob/master/docs/documentation/tutorial.html) how to install and use its different functions in the command line.
 
 We work mainly in the MetaCentrum computer cluster. For more information on getting an account and tutorials how to run programs, see their [website](https://metavo.metacentrum.cz/).
 

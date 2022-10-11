@@ -54,3 +54,10 @@ user@metacentrum:~$
 secapr assemble_reads --assembler spades --input /data/processed/cleaned_trimmed_reads/ --output /data/processed/contigs
 ```
 
+## step 3: find the targeted contigs (kettin gene)
+We use the SECAPR pipeline to extract the contigs of interest using the LASTZ algorithm.
+
+```console
+user@metacentrum:~$
+secapr find_target_contigs --contigs /data/contigs/ --reference /data/targets/all_transcriptomes.fasta --output /data/extracted_contigs --keep-duplicates --keep-paralogs --disable_stats
+```

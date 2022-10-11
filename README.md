@@ -59,7 +59,7 @@ We use the SECAPR pipeline to extract the contigs of interest using the LASTZ al
 
 ```console
 user@metacentrum:~$
-secapr find_target_contigs --contigs /data/contigs/ --reference /data/targets/all_transcriptomes.fasta --output /data/extracted_contigs --keep-duplicates --keep-paralogs --disable_stats
+secapr find_target_contigs --contigs /data/contigs/ --reference /data/targets/all_transcriptomes.fasta --output /data/extracted_contigs --min_identity 80 --keep-paralogs
 ```
 
 ## step 4: align the targeted contigs (kettin gene)

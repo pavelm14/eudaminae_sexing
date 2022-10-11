@@ -62,7 +62,7 @@ user@metacentrum:~$
 secapr find_target_contigs --contigs /data/contigs/ --reference /data/targets/all_transcriptomes.fasta --output /data/extracted_contigs --keep-duplicates --keep-paralogs --disable_stats
 ```
 
-# step 4: align the targeted contigs (kettin gene)
+## step 4: align the targeted contigs (kettin gene)
 We use the SECAPR pipeline to align all the extracted contigs of interest using the program MAFFT
 
 ```console

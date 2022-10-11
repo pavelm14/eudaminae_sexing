@@ -1,5 +1,5 @@
 # eudaminae_sexing
-This is our repository where we describe the bioinformatic steps to obtain primers to amplify a fragment of the kettin loci (Z chromosome) in Eudaminae.
+This is our repository where we describe the bioinformatic steps to obtain primers to amplify a fragment of the kettin loci (Z chromosome) in [Eudaminae](https://github.com/pavelm14/blob/master/lab_miscellaneous/tree/main/website).
 
 We use low-coverage whole genome resequencing (WGS) data to extract the locus of interest. Then, we align the resulting sequences and public transcriptomic data to assess for any potential intron/exon breaks in the genomic sequences. Finally, we use the Primer BLAST algorithm to point out potential conserved regions across Eudaminae where primers can anneal.
 
@@ -10,7 +10,7 @@ We download the transcriptomic sequences of the kettin gene available at NCBI: h
 
 By October 11, 2022, the data include transcriptomes of B. mori, B. anynana, and P. brassicae.
 
-These sequences are used as target baits to pull out contigs of interest from the genome assemblies of [Eudaminae](https://github.com/pavelm14/blob/master/lab_miscellaneous/tree/main/website). Moreover, the transcriptomic sequences are again used during the multiple sequence alignment step, where we aim to distinguish exon/intron boundaries in the genomic sequences.
+These sequences are used as target baits to pull out contigs of interest from the genome assemblies of Eudaminae. Moreover, the transcriptomic sequences are again used during the multiple sequence alignment step, where we aim to distinguish exon/intron boundaries in the genomic sequences.
 
 The transcriptomic sequences are localted at the [data/targets folder](https://github.com/pavelm14/eudaminae_sexing/blob/master/data/targets).
 

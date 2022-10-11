@@ -15,7 +15,7 @@ These sequences are used as target baits to pull out contigs of interest from th
 The transcriptomic sequences are localted at the [data/targets folder](https://github.com/pavelm14/eudaminae_sexing/blob/master/data/targets).
 
 ## step 2: genome assemblies
-We assemble contigs de novo using the SECAPR pipeline ([Andermann et al. 2018](https://doi.org/10.7717/peerj.5175)). The latest implementation of SECAPR includes the software SPAdes, which is very convenient when assembling whole genome resequencing data ([Ribeiro et al. 2021](https://doi.org/10.1111/mec.16240)).
+We assemble contigs de novo using the SECAPR pipeline ([Andermann et al. 2018](https://doi.org/10.7717/peerj.5175)). The latest implementation of SECAPR (v 2.1.0) includes the software SPAdes, which is very convenient when assembling whole genome resequencing data ([Ribeiro et al. 2021](https://doi.org/10.1111/mec.16240)).
 
 You can find in the [SECAPR tutorial](http://htmlpreview.github.io/?https://github.com/AntonelliLab/seqcap_processor/blob/master/docs/documentation/tutorial.html) how to install and use its different functions in the command line.
 
@@ -59,7 +59,7 @@ We use the SECAPR pipeline to extract the contigs of interest using the LASTZ al
 
 ```console
 user@metacentrum:~$
-secapr find_target_contigs --contigs /data/contigs/ --reference /data/targets/all_transcriptomes.fasta --output /data/extracted_contigs --min_identity 80 --keep-paralogs
+secapr find_target_contigs --contigs /data/contigs/ --reference /data/targets/all_transcriptomes.fasta --output /data/extracted_contigs --min_identity 80 --keep_paralogs
 ```
 
 ## step 4: align the targeted contigs (kettin gene)

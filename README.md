@@ -71,3 +71,8 @@ secapr align_sequences --sequences /data/extracted_all_samples.fasta --output /d
 ```
 
 The file extracted_all_samples.fasta contains all contigs from all samples
+
+## step 5: manually curating the conserved genomic blocks
+As expected, the alignment spans conserved and highly variable regions. One way to reveal potential exon/intron structure is to align the transcriptomic sequences together with the genomic sequences and find subpartitions. We can do that by manually adding the transcriptomic data into the extracted contigs in step 3, and align everything using MAFFT via SECAPR.
+
+Once we have an alignment, we can use the software Geneious to extract conserved genomic regions and find primers using the website Primer BLAST https://www.ncbi.nlm.nih.gov/tools/primer-blast/
